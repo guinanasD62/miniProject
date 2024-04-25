@@ -1,0 +1,212 @@
+/* styles.css */
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.navbar ul li:last-child {
+  margin-right: 0;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.main-content {
+  padding: 20px 0;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  
+}
+
+.navbar h1 {
+  margin: 0;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 800px;
+}
+
+.links ul li {
+  display: inline;
+  margin-right: 20px;  
+ 
+}
+
+.links ul li:last-child {
+  margin-right: 0;
+}
+
+.links ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+button {
+  
+  background-color: #507092; 
+  color: #fff; 
+  padding: 10px 30px; 
+  border: none;
+  border-radius: 5px; 
+  cursor: pointer; 
+  margin: 20px; 
+  margin-left: 40px;
+}
+
+.loginForm {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 30%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+form {
+  margin-left: 40%;
+  margin-top: 10%;
+}
+
+.logout {
+ margin-left:10%;
+}
+
+table {
+  border-width : 1px;
+}
+/* Apply to the root div of your component for general styling */
+.root {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* Style for the search bar */
+.search-input {
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Style for your table */
+.table-container {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  width: 80%; /* Set the width of the table */
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: left;
+  padding: 10px;
+  border: 0.5px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Optional: Responsive table at smaller screen sizes */
+@media screen and (max-width: 768px) {
+  table {
+    width: 95%;
+  }
+}
